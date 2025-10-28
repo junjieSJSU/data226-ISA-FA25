@@ -1,0 +1,7 @@
+models:
+  - name: session_summary
+    columns:
+    - name: sessionId
+      tests:
+        - unique
+        - not_null
